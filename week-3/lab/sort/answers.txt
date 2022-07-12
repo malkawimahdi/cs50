@@ -1,0 +1,16 @@
+sort1 uses: bubble sort
+
+How do you know?: Since bubble sorts Ω(n) in the best case, I have tested this algorithm on the largest sorted data set.
+Since bubble sort is Ω(n) and selection sort is Ω(n^2), bubble sort should outperform selection sort in sorted data.
+sort1 0.442s vs sort3 3.343s.
+
+sort2 uses: merge sort
+
+How do you know?: Fastest algorithm in all scenarios on all data sets.
+Based on this information I am able to conclude that since merge sort has a Θ(n log n) time complexity, it will be faster in all scenarios,
+than bubble or selection sort.
+
+sort3 uses: selection sort
+
+How do you know?: This algorithm performs comparably in random and reversed data sets however it is slower in sorted data sets as
+this algorithm is Θ(n^2).
